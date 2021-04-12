@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>¯\_(ツ)_/¯</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="dist/css/main.css" />
+
+	</head>
+
+	<body>
+		<div class="container">
+			
+			<form name="article_search" method="get">
+				<p class="message"></p>
+				<label for="term">term</label>
+				<input id="term" name="term" />
+				<button type="submit" class="get_btn">Search</button>
+			</form>
+			<button class="prev_btn">Prev Article</button>
+			<button class="next_btn">Next Article</button>
+		</div>
+		<img src="" alt="" class="result_image">
+		<section class="results">
+			<h2 class="headline"></h2>
+			<div class="article_info">
+				<p class="article_author"></p>
+				<p class="article_postDate"></p>
+			</div>
+			<article class="lead_paragraph"></article>
+			<a href="" target="/blank" class="article_url">Learn More</a>
+		</section>
+
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="dist/js/main.js"></script>
+	</body>
+</html>
